@@ -1,0 +1,13 @@
+#include<iostream>
+using namespace std;
+int main()
+{ int a,b,t;
+    cout<<"Enter A Value:";
+    cin>>a;
+     cout<<"Enter B Value:";
+    cin>>b;
+    t=a;
+    b=a;
+    b=t;
+    cout<<"After Swapping A="<<a<<"B="<<b;
+}
