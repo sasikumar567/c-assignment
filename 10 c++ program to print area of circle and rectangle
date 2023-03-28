@@ -1,0 +1,16 @@
+
+#include<iostream>
+using namespace std;
+int main(){
+	float r,b,h,a1,a2;
+	cout<<"Enter radius of circle:";
+	cin>>r;
+	a1=3.14*r*r;
+	cout<<"Area of circle :"<<a1;
+	cout<<"Enter height of the rectangle :";
+	cin>>h;
+	cout<<"Enter breath of the rectangle :";
+	cin>>b;
+	a2=h*b;
+	cout<<"Area of rectangle: "<<a2;
+}
