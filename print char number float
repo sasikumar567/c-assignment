@@ -1,0 +1,11 @@
+#includeiostream>
+using namespace std;
+int main(){
+	int a=10;
+	float b=5.55;
+	char c='a';
+	cout<<a;
+	cout<<b;
+	cout<<c;
+	return 0;
+}
