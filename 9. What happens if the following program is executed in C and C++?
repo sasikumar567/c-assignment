@@ -1,0 +1,18 @@
+#include<stdio.h> 
+int main() 
+{ 
+   foo();
+}  
+int foo() 
+{ 
+   printf("Hello"); 
+   return 0;  
+}
+
+Error in both C and C++
+b) Warning in both C and C++
+c) Error in C++ but Warning in C
+d) Error in C but Warning in C++
+View Answer
+Answer: c
+Explanation: In C++ user defined functions should be declared before it is called else the C++ compiler will throw an error whereas in case of C the compiler just gives a warning and the program can be executed.
