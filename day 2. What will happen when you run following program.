@@ -1,0 +1,32 @@
+/*
+#include<iostream.h>
+void main()
+{
+	int i=10, j=5;
+	int modresult=0;
+	int divresult=0;
+	modresult=i%j;
+	cout<<modresult;
+	divresult=i/modresult;
+	cout<<divresult;
+}
+
+*/
+using namespace std;
+#include<iostream>
+int main()
+{
+	int i=10, j=5;
+	int modresult=0;
+	int divresult=0;
+	modresult=i%j;
+	cout<<modresult;
+	divresult=i/modresult;
+	cout<<divresult;
+	return 0;
+}
+
+
+divide by zero error will occur if we exucute this code
+divresult=i/modresult;
+since modresult is 0
