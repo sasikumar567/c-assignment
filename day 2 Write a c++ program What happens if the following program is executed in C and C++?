@@ -1,0 +1,25 @@
+/*
+#include <stdio.h> 
+int main(void) 
+{ 
+	const int j = 20; 
+	int *ptr = &j;
+	printf("*ptr: %d\n", *ptr); 
+	return 0; 
+}
+
+*/
+
+using namespace std;
+#include<iostream>
+int main(void) 
+{ 
+	int j = 20; 
+	int *ptr = &j;
+	cout<<(*ptr); 
+	return 0; 
+}
+
+output 20
+since the pointer variable holds the variable j
+pointer is the vaible which hold the address of the another variable
