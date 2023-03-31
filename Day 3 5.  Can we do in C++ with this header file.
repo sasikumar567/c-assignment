@@ -1,0 +1,12 @@
+#include<bits/stdc++.h>
+ 
+intmain ()
+{
+   inta = 15, b = 20;
+   printf("max = %d\n", ((a + b) + abs(a - b)) / 2);
+   printf("min = %d", ((a + b) - abs(a - b)) / 2);
+   return0;
+}
+
+Answer:
+The code you provided finds the maximum and minimum of two numbers. The header file bits/stdc++.h includes all standard libraries in C++. However, it is not recommended to use this header file in competitive programming as it increases compilation time and is not portable across different compilers1.
