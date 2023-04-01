@@ -1,0 +1,26 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+	int i,j;
+	cout<<"Rectangle:\n ENter rows and coloumns:\n";
+	cin>>i>>j;
+	for(int x=0;x<i;x++)
+	{
+		for(int y=0;y<j;y++)
+		{
+			cout<<"*";
+		}
+		cout<<"\n";
+	}
+	cout<<"Square:\n ENter N:\n";
+	cin>>i;
+	for(int x=0;x<i;x++)
+	{
+		for(int y=0;y<i;y++)
+		{
+			cout<<"* ";
+		}
+		cout<<"\n";
+	}
+}
