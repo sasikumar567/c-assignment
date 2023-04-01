@@ -1,0 +1,16 @@
+#include<iostream>
+using namespace std;
+int main(){
+	string a,b;
+	cout<<"ENter user name:";
+	cin>>a;
+	cout<<"Reneter user name:";
+	cin>>b;
+	if(a==b)
+	{
+		cout<<"valid username";
+	}
+	else
+	{
+		cout<<"invalid username";
+	}}
